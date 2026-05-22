@@ -1,5 +1,4 @@
 import { signInAction } from "./actions";
-import { useNavigate } from 'react-router-dom'; // 1. インポート
 
 // 引数としてdispatchとgetStateを受け取る「だけ」にする
 export const signIn = () => {
