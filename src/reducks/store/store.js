@@ -29,7 +29,7 @@ import {
     combineReducers,
     applyMiddleware
 } from 'redux';
-import { thunk } from 'redux-thunk';// 非同期処理のためにthunkなどが必要になる
+import { thunk } from 'redux-thunk';// 非同期処理のために必要
 import { userReducer } from "../users/reducers";
 
 export default function createStore() {
